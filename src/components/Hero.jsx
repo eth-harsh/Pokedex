@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="hero">
       <video
-        src="/waterfall.mp4"
+        src={`${import.meta.env.BASE_URL}waterfall.mp4`}
         autoPlay
         muted
         loop
